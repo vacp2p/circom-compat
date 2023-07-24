@@ -30,7 +30,7 @@ hex = "0.4.3"
 byteorder = "1.4.3"
 
 # ethereum compat
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", default-features = false, optional = true }
+ethers-core = { version = "2.0.8", default-features = false, optional = true }
 
 # error handling
 thiserror = "1.0.26"
